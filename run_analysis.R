@@ -51,4 +51,4 @@ xgroup <- x2[, lapply(.SD, mean), by=c( "Subject","Activity"), .SDcols=names]
 
 ## Write two files
 write.csv(x2, file = "x.csv")
-write.csv(MyData, file = "xSummary.csv")
+write.csv(xgroup, file = "xSummary.csv")

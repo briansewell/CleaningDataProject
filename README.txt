@@ -49,6 +49,13 @@ Notes:
 - Each feature vector is a row on the text file.
 - Extracted all columns with 'mean' and 'std' in the column name.
 
+This script will create a folder called 'data' in your root directory if there is not already one and download orginal data into that folder.
+
+The script will then create two files
+'x.csv' A data table containing the mean and std extracted from the original data set.
+'xSummary.csv' A calculation of the mean of 'x.csv' grouped by Subject and Activity.
+
+Refer to the CodeBook.md for a precise description and code used to prepare these files.
 
 For more information about the data extraction contact: briansewell@yahoo.com
 For more information about this dataset contact: activityrecognition@smartlab.ws
